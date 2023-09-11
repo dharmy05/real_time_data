@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #282626;
+    font-size: 20px;
+    font-family:'serif';
+    font-weight: lighter;
+}
+body{
+     background-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   display: grid;
+   gap: 0.5rem;
+   background-color: gainsboro;
+   border-radius: 10px;
+   padding: 20px;
+   height: auto;
+}
+#slackDisplayImage{
+    margin-top: 20px;
+     width: 90%;
+    height: 50vh; 
+    border-radius: 20px;
+}
+ .link a{
+    color: rgb(179, 32, 32);
+    text-decoration: none;
+ }
